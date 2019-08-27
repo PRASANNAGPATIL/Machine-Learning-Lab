@@ -8,7 +8,6 @@ Created on Fri Aug 16 21:43:21 2019
 import pandas as pd
 dataset = pd.read_csv('lab1_with_pandas.csv')
 X = dataset.iloc[:, :].values
-#y = dataset.iloc[:, 6].values
 
 print("\n The most general hypothesis : ['?','?','?','?','?','?'] \n")
 print("\n The most specific hypothesis : ['0','0','0','0','0','0'] \n")
@@ -32,4 +31,3 @@ for i in range(0,len(X)): # i valies from 0 to 3, len(a) is 4, i.e, 4 instances 
     print("For Training Example No : {0} the hypothesis is".format(i),hypothesis)
 print("\n The Maximally Specific Hypothesis for a given Training Examples :\n")
 print(hypothesis)
-
