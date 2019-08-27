@@ -5,7 +5,7 @@ Created on Fri Aug 16 21:43:21 2019
 @author: ISHAAN
 """
 import csv
-attributes = [['Sunny','Rainy'],['Warm','Cold'],['Normal','High'],['Strong','Weak'],['Warm','Cool'],['Same','Change']]
+attributes = [['Sunny','Rainy','Cloudy'],['Warm','Cold'],['Normal','High'],['Strong','Weak'],['Warm','Cool'],['Same','Change']]
 #type of attributes is list
 num_attributes = len(attributes)
 #num_attributes=6
