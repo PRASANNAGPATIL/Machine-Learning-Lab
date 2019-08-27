@@ -14,12 +14,17 @@ print("\n The most specific hypothesis : ['0','0','0','0','0','0'] \n")
 a=[]
 #a is empty list
 print("\n The given training data set \n")
-with open(r"lab1.csv",'r')as csvFile:
-    reader = csv.reader(csvFile)
-    for row in reader :
-        #reading each line in the csv file object "reader"
-        a.append(row)
-        print(row)
+csvFile= open(r"lab1.csv")
+reader = csv.reader(csvFile)
+a=list(reader)
+print(a)
+#      another way to read csv file is
+#with open(r"lab1.csv",'r')as csvFile:
+#    reader = csv.reader(csvFile)
+#    for row in reader :
+#        #reading each line in the csv file object "reader"
+#        a.append(row)
+#        print(row)
 # now list "a" contains all the 4 rows of csv file
 # a=[['Sunny', 'Warm', 'Normal', 'Strong', 'Warm', 'Same', 'Yes'],
 #    ['Sunny', 'Warm', 'High', 'Strong', 'Warm', 'Same', 'Yes'],
