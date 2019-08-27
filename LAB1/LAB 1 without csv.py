@@ -10,8 +10,7 @@ num_attributes = len(attributes)
 #num_attributes=6
 print("\n The most general hypothesis : ['?','?','?','?','?','?'] \n")
 print("\n The most specific hypothesis : ['0','0','0','0','0','0'] \n")
-#a=[]
-#a is empty list
+
 print("\n The given training data set \n")
 
 
