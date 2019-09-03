@@ -1,4 +1,6 @@
-Lab 1: For better understanding of 1st lab Program, follow the program execution flow as Stated Below:
+Lab 1: FIND-S ALGORITHM
+
+For better understanding of 1st lab Program, follow the program execution flow as Stated Below:
 
     Lab1 without CSV.py (NO CSV File)
   
