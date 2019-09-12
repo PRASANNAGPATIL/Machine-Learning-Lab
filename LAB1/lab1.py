@@ -37,10 +37,13 @@ print(hypothesis)
 #hypothesis has null hypothesis in the beginning, i.e, 
 # hypothesis= ['0', '0', '0', '0', '0', '0']
 
-#comparing with first training example
-for j in range(0,num_attributes): # j varies from 0 to 5
-    hypothesis[j] = a[0][j];
-    # now hypotheses becomes ['Sunny', 'Warm', 'Normal', 'Strong', 'Warm', 'Same']
+#comparing with all training examples
+for i in range(0,len(a)):# i varies from 0 to 3
+    if(a[i][6]=='Yes'):
+        for j in range(num_attributes): 
+            hypothesis[j] = a[i][j]
+        break
+# now hypotheses becomes the first positive instance
     
 #comparing with remaining training examples of given data set
 print("\n Find S: Finding a maximally specific hypothesis \n")
